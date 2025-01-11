@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysProbs;
 
 public class RotateArray {
     //right rotate array

@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysProbs;
 
 public class RearrangeSoredArray {
     //We're given a sorted array, nums, containing positive integers only. We have to rearrange the array so that when returned, the

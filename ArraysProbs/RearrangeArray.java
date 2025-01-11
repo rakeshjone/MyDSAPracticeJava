@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysProbs;
 
 public class RearrangeArray {
     //Implement a function that rearranges elements in an array so that all negative elements appear to the left and all positive elements (including zero)
