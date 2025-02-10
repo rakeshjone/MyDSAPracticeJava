@@ -42,7 +42,7 @@ public class MyGraph {
         if (source < vertices && destination < vertices) {
             this.list[source].insertAtEnd(destination);
             //if this is an undirected graph uncomment below
-            this.list[destination].insertAtEnd(source);
+            //this.list[destination].insertAtEnd(source);
         }
     }
 

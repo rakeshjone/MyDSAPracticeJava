@@ -27,6 +27,7 @@ public class SinglyLinkedList<T> {
     //Insert at the start of the list
     public void insertAtStart(T data) {
         Node newNode = new Node(data);
+        //in case there are already some nodes present
         newNode.next = head;
         head = newNode;
         size++;
@@ -92,11 +93,11 @@ public class SinglyLinkedList<T> {
         SinglyLinkedList<Integer> ssl = new SinglyLinkedList<Integer>();
 
         //create and print a list
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 1; i++) {
             ssl.insertAtStart(i);
         }
         ssl.printList();
-
+/*
         //Modify and print the list by inserting in-between
         ssl.insertAfter(11,10);
         ssl.insertAtEnd(21);
@@ -107,6 +108,6 @@ public class SinglyLinkedList<T> {
         ssl.deleteAtHead();
         ssl.printList();
 
-
+*/
     }
 }
